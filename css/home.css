@@ -134,7 +134,7 @@ video{
 	position: absolute;
 	top: 0;
 	left: 15%;
-	opacity: .8;
+	opacity: .7;
 	text-align: center;
 }
 .center_play_mask_two{
@@ -143,7 +143,7 @@ video{
 	background: #342C29;
 	position: absolute;
 	top: 619px;
-	opacity: .8;
+	opacity: .7;
 	text-align: center;
 }
 .center_play_mask_three{
@@ -153,7 +153,16 @@ video{
 	position: absolute;
 	top: 1238px;
 	right: 0;
-	opacity: .8;
+	opacity: .7;
+	text-align: center;
+}
+.center_play_mask_four{
+	width: 42%;
+	height: 619px;
+	background: #342C29;
+	position: absolute;
+	top: 1857px;
+	opacity: .7;
 	text-align: center;
 }
 .center_play_mask_buttom{
@@ -161,9 +170,9 @@ video{
 	height: 619px;
 	background: #342C29;
 	position: absolute;
-	top: 1857px;
+	top: 2476px;
 	left: 15%;
-	opacity: .8;
+	opacity: .7;
 	text-align: center;
 }
 .inner{
