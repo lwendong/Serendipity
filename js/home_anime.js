@@ -17,3 +17,12 @@ function initAnime() {
 			opacity: '1'
 		})
 }
+
+function show(className){
+	anime({
+		targets: className,
+		opacity: 1,
+		marginTop: 0,
+		duration: 1200
+	});
+}
