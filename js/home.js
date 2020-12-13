@@ -1,10 +1,10 @@
 $(function() {
 	initAnime();
-	
-	
-	var threeTop = $(".three").offset().top-750;
-	var fourTop = $(".four").offset().top-750;
-	var fiveTop = $(".five").offset().top-750;
+
+
+	var threeTop = $(".three").offset().top - 800;
+	var fourTop = $(".four").offset().top - 800;
+	var fiveTop = $(".five").offset().top - 800;
 	$(window).scroll(function() {
 		var scrollTop = $(this).scrollTop();
 		if (scrollTop > threeTop) {
