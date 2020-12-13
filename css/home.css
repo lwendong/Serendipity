@@ -38,24 +38,29 @@ body::-webkit-scrollbar-track {
 	left: 0;
 	z-index: 100;
 }
-.bg .start{
+
+.bg .start {
 	height: 65%;
 	width: 50%;
 	z-index: 101;
 	position: fixed;
 	right: 14%;
 	top: 11%;
+	user-select: none;
 }
-.bg .start .guide{
+
+.bg .start .guide {
 	height: 25%;
 	width: 100%;
 	overflow: hidden;
 	font-size: 100px;
 }
-.span{
+
+.span {
 	position: relative;
 	top: 138px;
 }
+
 .bg .center {
 	height: auto;
 	width: 85%;

@@ -1,5 +1,6 @@
 $(function() {
 	initAnime();
+	var isClick = false;
 	var threeTop = $(".three").offset().top - 800;
 	var fourTop = $(".four").offset().top - 800;
 	var fiveTop = $(".five").offset().top - 800;
@@ -21,8 +22,10 @@ $(function() {
 	});
 
 	_left.click(function() {
-		clearInterval(interval);
-		start();
+		if (!isClick) {
+			clearInterval(interval);
+			start();
+		}
 	});
 
 	var interval = setInterval(function() {
@@ -34,11 +37,11 @@ $(function() {
 		var m = myDate.getMinutes();
 		var s = myDate.getSeconds();
 		_ymd.text(year + "." + mon + "." + day);
-		if (m <= 9 ) {
-			m="0"+m;
-		} 
-		if(s <= 9){
-			s="0"+s;
+		if (m <= 9) {
+			m = "0" + m;
+		}
+		if (s <= 9) {
+			s = "0" + s;
 		}
 		_time.text(h + ":" + m + ":" + s);
 	}, 1000);
