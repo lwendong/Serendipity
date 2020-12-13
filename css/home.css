@@ -36,10 +36,26 @@ body::-webkit-scrollbar-track {
 	background: #0F0F0F;
 	position: fixed;
 	left: 0;
-	float: left;
 	z-index: 100;
 }
-
+.bg .start{
+	height: 65%;
+	width: 50%;
+	z-index: 101;
+	position: fixed;
+	right: 14%;
+	top: 11%;
+}
+.bg .start .guide{
+	height: 25%;
+	width: 100%;
+	overflow: hidden;
+	font-size: 100px;
+}
+.span{
+	position: relative;
+	top: 138px;
+}
 .bg .center {
 	height: auto;
 	width: 85%;
