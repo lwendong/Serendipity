@@ -25,6 +25,7 @@ $(function() {
 		if (!isClick) {
 			clearInterval(interval);
 			start();
+			isClick = true;
 		}
 	});
 
