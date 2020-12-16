@@ -25,6 +25,7 @@ function start() {
 			width: '-=85%',
 			duration: 1500,
 			complete: function(anim) {
+				$('.start').css('display', 'none');
 				$('.external').css('display', 'block');
 			}
 		}, '-=1000')
