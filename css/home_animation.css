@@ -1,11 +1,5 @@
 .buttom_a:hover {
 	color: #E1C580;
-	transition: all 1s linear;
-}
-
-.buttom_a:link {
-	color: #3C3C3C;
-	transition: all 1s linear;
 }
 
 .dha:hover {
@@ -16,7 +10,7 @@
 
 .dha:link {
 	color: white;
-	transition: all 1s linear;
+	transition: all 0.5s linear;
 }
 
 .center_play:hover .inner {

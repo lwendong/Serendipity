@@ -36,7 +36,6 @@ function start() {
 }
 
 function show(className) {
-
 	anime({
 		targets: className,
 		opacity: 1,

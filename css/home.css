@@ -142,6 +142,7 @@ body::-webkit-scrollbar-track {
 	margin-left: 8px;
 	margin-right: 25px;
 	color: #3C3C3C;
+	transition: all 1s linear;
 }
 
 .buttom_title {
